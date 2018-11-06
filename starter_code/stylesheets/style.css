@@ -26,6 +26,11 @@ font-family: 'Libre Baskerville', serif;
     width: 100%;
     background: white;
     border-bottom: #5b5e6d 0.3px solid;
+    text-align: right;
+}
+
+label{
+  display: none;
 }
 
 ul{
@@ -195,4 +200,37 @@ h2{
     display: flex;
     flex-direction: column;
     line-height: 30px;
+}
+
+#last-div{
+  background: #F4F3F4;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5b5e6d;
+  justify-content: space-between;
+}
+
+#last-div img{
+  height: 30px;
+  margin-top: 5px;
+}
+
+#last-div ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#flag{
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 90px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    width: 763px;
+  }
 }
